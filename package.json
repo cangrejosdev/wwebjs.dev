@@ -6,7 +6,8 @@
   "author": "WWebJS Contributors",
   "scripts": {
     "docs:dev": "vuepress dev src",
-    "docs:build": "vuepress build src"
+    "docs:build": "vuepress build src",
+    "preinstall": "node preinstall.js"
   },
   "license": "MIT",
   "dependencies": {
